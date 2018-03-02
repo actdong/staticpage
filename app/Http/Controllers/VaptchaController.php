@@ -16,8 +16,8 @@ class VaptchaController extends Controller
      * 实例化vaptcha
      */
     public function __construct(){
-        $vid = '5a503123a48617214c19c964';
-        $key = '6fa7178b25d74029ae7fd2f177666142';
+        $vid = '5a981126a4868a214c8f484a';
+        $key = '9e059e86e28045b9a53ad70f1574b0ae';
         $this->vaptcha = new Vaptcha($vid, $key);
     }
 
@@ -107,4 +107,3 @@ class VaptchaController extends Controller
  *      true => 验证表单等后续操作
  *      false => 返回错误信息
  */
-
