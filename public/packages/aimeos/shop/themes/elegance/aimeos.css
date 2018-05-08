@@ -897,12 +897,9 @@ html.no-js .catalog-filter-attribute:hover .attribute-lists {
 .aimeos .product .text-list h2 {
 	text-transform: uppercase;
 	font-weight: normal;
-	/*font-size: 100%;*/
-        font-size: 1.07em;
+	font-size: 100%;
 	overflow: hidden;
-	/*height: 2em;*/
-	height: 2.5em;
-        padding-top: 0.25em;
+	height: 2em;
 	margin: 0;
     margin-bottom: 1rem;
 }
